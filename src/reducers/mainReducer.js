@@ -1,4 +1,4 @@
-import {FETCH_MAIN_DATA} from "../actions/types";
+import {FETCH_MAIN_DATA,NEWS_LIST} from "../actions/types";
 
 const mainState = {
     main_data:[]
@@ -10,6 +10,11 @@ export default function mainReducer(state = mainState, action) {
             return {
                 ...state,
                 main_data:action.payload
+            }
+        case NEWS_LIST:
+            return {
+                ...state,
+                news_data: action.payload
             }
         default:
             return state;

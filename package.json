@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-project",
+  "name": "redux-last-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,22 +11,21 @@
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "react-js-pagination": "^3.0.3",
-    "react-redux": "^9.2.0",
+    "axios": "^1.9.0",
     "react-router": "^7.6.1",
     "react-router-dom": "^7.6.1",
-    "redux": "^5.0.1",
-    "@redux-devtools/extension": "^3.3.0",
+    "react-redux": "^9.2.0",
     "redux-thunk": "^3.1.0",
-    "react-bootstrap": "^2.10.10",
-    "redux-persist": "^6.0.0",
-    "axios": "^1.9.0",
+    "redux": "^5.0.1",
     "redux-logger": "^3.0.6",
+    "@redux-devtools/extension": "^3.3.0",
     "@reduxjs/toolkit": "^2.8.2",
+    "express": "^4.21.2",
+    "request": "^2.88.2",
     "xml2js": "^0.6.2",
     "react-kakao-login": "^2.1.1",
     "react-cookie": "^8.0.1",
-    "request": "^2.88.2"
+    "oracledb": "^6.8.0"
   },
   "scripts": {
     "start": "react-scripts start",

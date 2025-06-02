@@ -10,3 +10,20 @@ export const fetchMainData = () => dispatch => {
         dispatch(action);
     })
 }
+
+export const fetchNewsData =(fd) => dispatch => {
+    console.log("asdfasdfsdafsdafasdf")
+    axios.get('http://localhost:3355/news/list',{
+
+        params:{
+            query:fd
+        }
+    }).then(res => {
+        const action={
+            type:'NEWS_LIST',
+            payload:res.data
+        }
+        console.log(res.data)
+        dispatch(action);
+    })
+}

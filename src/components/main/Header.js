@@ -24,8 +24,11 @@ function Header() {
                                     <div className="login">
                                         <Link to="/movie/list" style={{"color":"white"}}>Movies</Link>
                                     </div>
-                                    <div className="register">
+                                    <div className="login">
                                         <Link to="/board/list" style={{"color":"white"}}>Community</Link>
+                                    </div>
+                                    <div className="register">
+                                        <Link to="/news/list" style={{"color":"white"}}>News</Link>
                                     </div>
                                 </div>
                             </div>
